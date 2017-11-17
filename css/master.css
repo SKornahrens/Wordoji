@@ -1,0 +1,12 @@
+p {
+  margin: 0;
+}
+
+#copyThePasta {
+  width: 500px;
+  height: 500px;
+}
+
+textarea {
+  font-size: 8px;
+}
