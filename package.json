@@ -20,5 +20,8 @@
   "homepage": "https://github.com/SKornahrens/slackAttack#readme",
   "devDependencies": {
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "emoji-selector": "^1.0.4"
   }
 }

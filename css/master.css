@@ -1,12 +1,67 @@
-p {
-  margin: 0;
+
+#title {
+  margin-top: 10px;
+}
+
+.wordoji {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 15px;
+}
+
+.partyParrot {
+  height: 15px;
+  margin-left: -3px;
+  margin-right: -3px;
+}
+
+.vader {
+  height: 15px;
+}
+
+.intro {
+  height: 2px;
+}
+
+.instructions {
+  margin-top: 50px;
+}
+
+#formSelectors {
+  margin-top: 50px;
+}
+
+#copyPasta {
+  height: 80px;
+  font-size: 9px;
+  background: #f2f2f2;
 }
 
 #copyThePasta {
-  width: 500px;
-  height: 500px;
+  background: black;
 }
 
-textarea {
-  font-size: 8px;
+#copyThePasta:hover {
+  background: gray;
+}
+
+.lineInputSelector {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #000 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+textarea:focus {
+  border-bottom: 1px solid #000 !important;
+  box-shadow: 0 1px 0 0 #000 !important;
 }

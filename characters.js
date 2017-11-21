@@ -1,6 +1,8 @@
 module.exports = characterList
 
 function characterList(a,b) {
+
+  //letter line formats
   let XXXXX = a + a + a + a + a + a
   let ZZZZZ = b + b + b + b + b + a
   let XZZZX = a + b + b + b + a + a
@@ -25,17 +27,8 @@ function characterList(a,b) {
   let XZX = a + b + a
   let XXX = a + a + a
 
-  //THE ALPHABET
+  //THE CHARACTERS
   return {
-    space : [
-      a,
-      a,
-      a,
-      a,
-      a,
-      a,
-      a
-    ],
     A: [
       XXXXX,
       XZZZX,
@@ -296,7 +289,7 @@ function characterList(a,b) {
       XXXXX
     ],
 
-    ex: [
+    "\u0021": [
       XZX,
       XZX,
       XZX,
@@ -306,7 +299,7 @@ function characterList(a,b) {
       XZX
     ],
 
-    qs: [
+    "\u003F": [
       XZZZX,
       ZXXXZ,
       ZXXXZ,
@@ -314,6 +307,16 @@ function characterList(a,b) {
       XXZXX,
       XXXXX,
       XXZXX
-    ]
+    ],
+
+    "\u0020": [
+      a,
+      a,
+      a,
+      a,
+      a,
+      a,
+      a
+    ],
   }
 }

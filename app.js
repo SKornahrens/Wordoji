@@ -1,9 +1,29 @@
 const getCharacters = require('./characters')
+require("emoji-selector")
 
 //background emoji
 let a = ""
 //letter emoji
 let b = ""
+
+
+
+
+let backgroundEmojiSelector = document.querySelector("#backgroundEmojiSelector")
+backgroundEmojiSelector.emojiSelected = (char) => {
+  $("#backgroundEmoji").val(char)
+  Materialize.updateTextFields()
+  backgroundEmojiSelector.close()
+}
+
+let letterEmojiSelector = document.querySelector("#letterEmojiSelector")
+letterEmojiSelector.emojiSelected = (char) => {
+  $("#letterEmoji").val(char)
+  Materialize.updateTextFields()
+  letterEmojiSelector.close()
+}
+
+
 
 //copyPasta function
 var copyButton = document.querySelector("#copyThePasta")
@@ -19,23 +39,23 @@ copyButton.addEventListener('click', function(event) {
   }
 })
 
-var getUserInput = document.querySelector("#getUserInput")
-getUserInput.addEventListener('click', function(event) {
-  var backgroundEmoji = document.querySelector("#backgroundEmoji").value
-  var letterEmoji = document.querySelector("#letterEmoji").value
+var getUserInput = $("#userInput")
+getUserInput.keyup(function() {
+  var letterEmoji = $("#letterEmoji").val().replace(/\s/g, "")
+  var backgroundEmoji = $("#backgroundEmoji").val().replace(/\s/g, "")
+
   a = backgroundEmoji
   b = letterEmoji
-  const characters = getCharacters(a,b)
 
-  var userInput = document.querySelector("#userInput").value
-  console.log(userInput);
+  let characters = getCharacters(a,b)
+  var userInput = $("#userInput").val()
 
   var splitInput = userInput.toUpperCase().split("")
+  console.log(splitInput);
   var preppedInput = []
-  preppedInput.push(characters.space)
+  preppedInput.push(characters["\u0020"])
   splitInput.forEach(letter => {
-    var tempLetter = characters[letter]
-    preppedInput.push(tempLetter)
+      preppedInput.push(characters[letter])
   })
   createEmojiMonster(preppedInput)
 })
