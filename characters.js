@@ -27,8 +27,8 @@ function characterList(a,b) {
   let XXZZX = a + a + b + b + a + a
   let XZZZZ = a + b + b + b + b + a
 
-  let XZX = a + b + a
-  let XXX = a + a + a
+  let ZX = b + a
+  let XX = a + a
 
   //THE CHARACTERS
   return {
@@ -292,56 +292,6 @@ function characterList(a,b) {
       XXXXX
     ],
 
-    "\u0021" : [
-      XZX,
-      XZX,
-      XZX,
-      XZX,
-      XZX,
-      XXX,
-      XZX
-    ],
-
-    "\u003F" : [
-      XZZZX,
-      ZXXXZ,
-      ZXXXZ,
-      XXZZZ,
-      XXZXX,
-      XXXXX,
-      XXZXX
-    ],
-
-    "\u0020" : [
-      a,
-      a,
-      a,
-      a,
-      a,
-      a,
-      a
-    ],
-
-    "\u0023" : [
-      XXXXX,
-      XZXZX,
-      ZZZZZ,
-      XZXZX,
-      ZZZZZ,
-      XZXZX,
-      XXXXX
-    ],
-
-    "\u0024" : [
-      XXZXX,
-      ZZZZZ,
-      ZXXXX,
-      ZZZZZ,
-      XXXXZ,
-      ZZZZZ,
-      XXZXX
-    ],
-
     1 : [
       XXXXX,
       XXZXX,
@@ -441,5 +391,56 @@ function characterList(a,b) {
       XZZZX,
       XXXXX
     ],
+    //space
+    "\u0020" : [
+      a,
+      a,
+      a,
+      a,
+      a,
+      a,
+      a
+    ],
+    //symbols
+    //!
+    "\u0021" : [
+      ZX,
+      ZX,
+      ZX,
+      ZX,
+      XX,
+      ZX,
+      XX
+    ],
+    //?
+    "\u003F" : [
+      XZZZX,
+      ZXXXZ,
+      XXZZZ,
+      XXZXX,
+      XXXXX,
+      XXZXX,
+      XXXXX
+    ],
+    //#
+    "\u0023" : [
+      XXXXX,
+      XZXZX,
+      ZZZZZ,
+      XZXZX,
+      ZZZZZ,
+      XZXZX,
+      XXXXX
+    ],
+    //$
+    "\u0024" : [
+      XXZXX,
+      ZZZZZ,
+      ZXXXX,
+      ZZZZZ,
+      XXXXZ,
+      ZZZZZ,
+      XXZXX
+    ]
   }
 }
