@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-105275773-2');
-    </script>
     <meta charset="utf-8">
     <title>Wordoji</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -26,7 +19,7 @@
     <div class="container center-align">
       <h5>Wordoji translates what you type into copyable Emojis words.</h5>
       <p class="intro">How it works: Select an emoji for the background and an emoji for the creation of letters. Then type what you want converted.</p>
-      <p class="intro">For example: WORDOJI uses the emoji <img src="assets/darth_vader.png"  class="vader"> for the background and <img src="assets/party_parrot.gif"  class="partyParrot"> for the emoji to make the letters.</p>
+      <p class="intro">For example: The title WORDOJI uses the emoji <img src="assets/darth_vader.png"  class="vader"> for the background and the emoji  <img src="assets/party_parrot.gif"  class="partyParrot"> to make the letters.</p>
 
       <h5 class="instructions">Instructions:</h5>
       <p>Use the select emoji button to find an emoji -OR- if you want to use custom slack emojis give the semicolon wrapped version, like this :partyparrot:</p>
@@ -63,12 +56,28 @@
       <textarea id="copyPasta" name="copyPastaSlackEmoji" rows="8" cols="300" class="materialize-textarea col s12"></textarea>
       <h6><b>Disclaimer:</b> If you are pasting into Slack please know it will not look correct on mobile. Unfortunately, slack will not scale the emojis to fit.</h6>
       <button class="waves-effect waves-light btn-large" id="copyThePasta">Copy Wordoji</button>
+
+      <h6 class="littleFooter">Built by <a href="https://www.linkedin.com/in/skornahrens/">Steve Kornahrens</a> &copy; 2017 </h6>
     </div>
+
+
+
+
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="./dist/app.bundle.js" charset="utf-8"></script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105275773-2"></script>
+  <!--Google Analytics  -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105275773-2', 'auto');
+  ga('send', 'pageview');
+
+  </script>
 </body>
 </html>

@@ -51,7 +51,6 @@ getUserInput.keyup(function() {
   var userInput = $("#userInput").val()
 
   var splitInput = userInput.toUpperCase().split("")
-  console.log(splitInput);
   var preppedInput = []
   preppedInput.push(characters["\u0020"])
   splitInput.forEach(letter => {

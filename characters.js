@@ -23,6 +23,9 @@ function characterList(a,b) {
   let ZXZXZ = b + a + b + a + b + a
   let ZZXZZ = b + b + a + b + b + a
   let ZZXXZ = b + b + a + a + b + a
+  let XZZXX = a + b + b + a + a + a
+  let XXZZX = a + a + b + b + a + a
+  let XZZZZ = a + b + b + b + b + a
 
   let XZX = a + b + a
   let XXX = a + a + a
@@ -289,7 +292,7 @@ function characterList(a,b) {
       XXXXX
     ],
 
-    "\u0021": [
+    "\u0021" : [
       XZX,
       XZX,
       XZX,
@@ -299,7 +302,7 @@ function characterList(a,b) {
       XZX
     ],
 
-    "\u003F": [
+    "\u003F" : [
       XZZZX,
       ZXXXZ,
       ZXXXZ,
@@ -309,7 +312,7 @@ function characterList(a,b) {
       XXZXX
     ],
 
-    "\u0020": [
+    "\u0020" : [
       a,
       a,
       a,
@@ -317,6 +320,126 @@ function characterList(a,b) {
       a,
       a,
       a
+    ],
+
+    "\u0023" : [
+      XXXXX,
+      XZXZX,
+      ZZZZZ,
+      XZXZX,
+      ZZZZZ,
+      XZXZX,
+      XXXXX
+    ],
+
+    "\u0024" : [
+      XXZXX,
+      ZZZZZ,
+      ZXXXX,
+      ZZZZZ,
+      XXXXZ,
+      ZZZZZ,
+      XXZXX
+    ],
+
+    1 : [
+      XXXXX,
+      XXZXX,
+      XZZXX,
+      XXZXX,
+      XXZXX,
+      ZZZZZ,
+      XXXXX
+    ],
+
+    2 : [
+      XXXXX,
+      XZZZX,
+      ZXXXZ,
+      XXZZX,
+      XZXXX,
+      ZZZZZ,
+      XXXXX
+    ],
+
+    3 : [
+      XXXXX,
+      XZZZX,
+      ZXXXZ,
+      XXXZX,
+      ZXXXZ,
+      XZZZX,
+      XXXXX
+    ],
+
+    4 : [
+      XXXXX,
+      ZXXXZ,
+      ZXXXZ,
+      ZZZZZ,
+      XXXXZ,
+      XXXXZ,
+      XXXXX
+    ],
+
+    5 : [
+      XXXXX,
+      ZZZZZ,
+      ZXXXX,
+      ZZZZX,
+      XXXXZ,
+      ZZZZX,
+      XXXXX
+    ],
+
+    6 : [
+      XXXXX,
+      XZZZX,
+      ZXXXX,
+      ZZZZX,
+      ZXXXZ,
+      XZZZX,
+      XXXXX
+    ],
+
+    7 : [
+      XXXXX,
+      ZZZZZ,
+      XXXZX,
+      XXZXX,
+      XZXXX,
+      ZXXXX,
+      XXXXX
+    ],
+
+    8 : [
+      XXXXX,
+      XZZZX,
+      ZXXXZ,
+      XZZZX,
+      ZXXXZ,
+      XZZZX,
+      XXXXX
+    ],
+
+    9 : [
+      XXXXX,
+      XZZZX,
+      ZXXXZ,
+      XZZZZ,
+      XXXXZ,
+      XXXXZ,
+      XXXXX
+    ],
+
+    0 : [
+      XXXXX,
+      XZZZX,
+      ZXXXZ,
+      ZXXXZ,
+      ZXXXZ,
+      XZZZX,
+      XXXXX
     ],
   }
 }
