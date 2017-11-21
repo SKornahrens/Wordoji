@@ -8,8 +8,7 @@
 
 ## Synopsis
 
-2 day project for fun. Wordoji creates user typed words with user selected emojis for the background and letters.
-For Example: the title Wordoji is created using the 💯 emoji for the background and the 🎱 emoji for creating the letters. 
+Roughly 10 hour project for fun. Wordoji creates user typed words with user selected emojis for the background and letters. For Example: the title Wordoji is created using the 💯 emoji for the background and the 🎱 emoji for creating the letters.
 
 ## Code Example
 
@@ -24,7 +23,7 @@ ZXXXZ,
 ZXXXZ,  
 XXXXX  
     ]`  
-    
+
 🎂🎂🎂🎂🎂🎂🎂  
 🎂🎂🍩🍩🍩🎂🎂  
 🎂🍩🎂🎂🎂🍩🎂  
@@ -35,7 +34,7 @@ XXXXX
 
 ## Motivation
 
-I would sometimes hand make these for fun in slack when we had an upcoming event, takes forever! Now its quick and easy. Speaking of slack, it can also accept slack's emoji format like :partyparrot:. 
+I would sometimes hand make these for fun in slack when we had an upcoming event, takes forever! Now its quick and easy. Speaking of slack, it can also accept slack's emoji format like :partyparrot:.
 
 
 ## Shout out to Kiricon for the simple HTML emoji selector
