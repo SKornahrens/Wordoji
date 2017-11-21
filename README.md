@@ -6,6 +6,8 @@
                     💯🎱💯💯💯🎱💯💯🎱🎱🎱💯💯🎱💯💯💯🎱💯🎱🎱🎱🎱💯💯💯🎱🎱🎱💯💯🎱🎱🎱💯💯💯🎱🎱🎱🎱🎱💯
                     💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯
 
+!["wordoji demo gif"](https://github.com/SKornahrens/Wordoji/blob/master/wordojidemo.gif)
+
 ## Synopsis
 
 Roughly 10 hour project for fun. Wordoji creates user typed words with user selected emojis for the background and letters. For Example: the title Wordoji is created using the 💯 emoji for the background and the 🎱 emoji for creating the letters.
